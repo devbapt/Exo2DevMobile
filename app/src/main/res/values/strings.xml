@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Campus</string>
+    <string name="campus_title">Campus</string>
+    <string name="reserve">Réserver</string>
+    <string name="category_all">Tous</string>
+    <string name="category_tech">Tech</string>
+    <string name="category_art">Art</string>
+    <string name="location_tbd">Lieu non défini</string>
+    <plurals name="places_count">
+        <item quantity="one">%d place restante</item>
+        <item quantity="other">%d places restantes</item>
+    </plurals>
+</resources>
