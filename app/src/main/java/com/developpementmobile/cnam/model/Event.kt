@@ -16,3 +16,4 @@ val sampleEvents = listOf(
     Event(4, "Meetup Android", "Tech", "Salle 101", 20, "Discussions autour d'Android."),
     Event(5, "Concert Live", "Musique", "Campus Plein Air", 50, "Concert de fin d'année.")
 )
+// Tous les events créés à cet endroit la dans l'event model 

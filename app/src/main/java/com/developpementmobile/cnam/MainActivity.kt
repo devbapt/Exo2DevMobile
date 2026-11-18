@@ -11,6 +11,7 @@ import com.developpementmobile.cnam.ui.EventDetailScreen
 import com.developpementmobile.cnam.ui.EventListScreen
 import com.developpementmobile.cnam.ui.theme.Exo1Part1Theme
 
+// Activité principale de l'application
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,6 +32,7 @@ fun EventListPreview() {
     }
 }
 
+// liste en mode sombre à retenir ici voir partie cours
 @Preview(showBackground = true, uiMode = android.content.res.Configuration.UI_MODE_NIGHT_YES)
 @Composable
 fun EventListDarkPreview() {
@@ -39,6 +41,7 @@ fun EventListDarkPreview() {
     }
 }
 
+// écran de détail d'un événement
 @Preview(showBackground = true)
 @Composable
 fun EventDetailPreview() {
@@ -46,6 +49,7 @@ fun EventDetailPreview() {
         EventDetailScreen(sampleEvents[0])
     }
 }
+
 
 @Preview(showBackground = true)
 @Composable
